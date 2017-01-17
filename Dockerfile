@@ -1,4 +1,4 @@
-FROM openjdk:8-jre-alpine
+FROM ibmjava:8-sfj-alpine
 MAINTAINER Zero Alpha Technology Limited <info@zeroalpha.technology>
 
 RUN apk --update --no-cache add \
